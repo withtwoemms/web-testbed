@@ -1,0 +1,13 @@
+/* Stylings for Audio/Video Page  */
+
+.wrapper {
+	max-width: 90%;
+	margin: 10px auto;
+	padding: 10px 20px;
+    background: #f4f7f8;
+}
+
+video, audio {
+    margin: 0 auto;
+    display: block;
+}
