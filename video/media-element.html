@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="js/mediaelement/build/mediaelement-and-player.min.js"></script>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="js/mediaelement/build/mediaelementplayer.min.css" rel="stylesheet" type="text/css">
+		<link href="js/mediaelement/build/mejs-skins.css" rel="stylesheet" type="text/css">
+		<title>HTML Audio & Video</title>
+	</head>
+	<body>
+		
+		<h1>What?</h1>
+
+		<div class="wrapper">
+		
+			<video class="mejs-wmp" src="img/surprise-silent.webm" type="video/webm" controls><!--autoplay loop/-->
+			<track label="confusion" kind="subtitles" srclng="en" src="surprise.vtt" default/>
+			<!-- Controls can be added by including the 'controls' keyword. The 'src' attribute of the 'video' element can be moved to a '<source src="" type=""/>' element within the 'video' element having a closing tag. This is relevant when needing to list video sources of different filetypes.  -->
+
+		</div>
+		<script>
+			$('audio,video').mediaelementplayer({
+				success: function(player,node) {
+					 	$('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+					 },
+				startLanguage: 'en',
+				tranlationSelector: true
+			});
+		</script>
+	</body>
+</html>

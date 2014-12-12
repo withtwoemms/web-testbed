@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reel Life: Nebraska</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+
+	<a id="logo" href="index.html">
+	    <h1>Reel Life Project:</h1>
+	    <h2>Nebraska</h2>
+	</a>
+
+    	<nav id="navbox">
+	    <ul id="navbar">
+	    	<li><a href="synopsis.html">Synopsis</a></li>
+	    	<li><a href="discussion.html">Discussion</a></li>
+     	    	<li><a class="selected" href="#">About Us</a></li>
+	    </ul>
+    	</nav>
+    </header>
+
+
+    <div class="ticket-box">
+	<a href="nebraska-sweepstakes/index.html">
+            <div id="ticket">
+	      	<span>Enter Now. Win TODAY!</span>
+            </div>
+    	</a>
+    </div>
+
+    <div class="container">
+    	<div class="content">
+ 	    <h2>Person #1</h2>
+	    <img src="img/stock-bernie.jpeg">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ex, congue quis tincidunt ut, sagittis ut tellus. Duis feugiat nisi nec lacus semper rutrum id non risus. Duis blandit, eros eu iaculis mollis, sapien mauris porttitor ex, eget elementum justo arcu eget enim. Nunc maximus sit amet magna nec placerat. Proin accumsan pretium mi sit amet bibendum. Sed commodo sit amet orci maximus pretium. Aliquam congue leo nec diam molestie, ut imperdiet odio iaculis. Fusce malesuada tellus tempor tellus vehicula, sit amet consectetur eros elementum. Donec elit augue, porta a lacinia dignissim, condimentum ut lacus. Praesent accumsan sit amet lectus vel rhoncus. Duis at fermentum orci, vel varius est. Ut laoreet efficitur pretium. Donec nec ipsum et massa aliquet pretium. Sed in dapibus diam, sed facilisis lorem. Etiam lacinia lorem non est porttitor mollis nec sit amet diam. Integer tempus quis nisi in faucibus. </p>
+        </div>
+    	<div class="content">
+ 	    <h2>Person #2</h2>
+	    <img src="img/stock-bernie.jpeg">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ex, congue quis tincidunt ut, sagittis ut tellus. Duis feugiat nisi nec lacus semper rutrum id non risus. Duis blandit, eros eu iaculis mollis, sapien mauris porttitor ex, eget elementum justo arcu eget enim. Nunc maximus sit amet magna nec placerat. Proin accumsan pretium mi sit amet bibendum. Sed commodo sit amet orci maximus pretium. Aliquam congue leo nec diam molestie, ut imperdiet odio iaculis. Fusce malesuada tellus tempor tellus vehicula, sit amet consectetur eros elementum. Donec elit augue, porta a lacinia dignissim, condimentum ut lacus. Praesent accumsan sit amet lectus vel rhoncus. Duis at fermentum orci, vel varius est. Ut laoreet efficitur pretium. Donec nec ipsum et massa aliquet pretium. Sed in dapibus diam, sed facilisis lorem. Etiam lacinia lorem non est porttitor mollis nec sit amet diam. Integer tempus quis nisi in faucibus. </p>
+        </div>
+    	<div class="content">
+ 	    <h2>Person #3</h2>
+	    <img src="img/stock-bernie.jpeg">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ex, congue quis tincidunt ut, sagittis ut tellus. Duis feugiat nisi nec lacus semper rutrum id non risus. Duis blandit, eros eu iaculis mollis, sapien mauris porttitor ex, eget elementum justo arcu eget enim. Nunc maximus sit amet magna nec placerat. Proin accumsan pretium mi sit amet bibendum. Sed commodo sit amet orci maximus pretium. Aliquam congue leo nec diam molestie, ut imperdiet odio iaculis. Fusce malesuada tellus tempor tellus vehicula, sit amet consectetur eros elementum. Donec elit augue, porta a lacinia dignissim, condimentum ut lacus. Praesent accumsan sit amet lectus vel rhoncus. Duis at fermentum orci, vel varius est. Ut laoreet efficitur pretium. Donec nec ipsum et massa aliquet pretium. Sed in dapibus diam, sed facilisis lorem. Etiam lacinia lorem non est porttitor mollis nec sit amet diam. Integer tempus quis nisi in faucibus. </p>
+        </div>
+    	<div class="content">
+ 	    <h2>Person #4</h2>
+	    <img src="img/stock-bernie.jpeg">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ex, congue quis tincidunt ut, sagittis ut tellus. Duis feugiat nisi nec lacus semper rutrum id non risus. Duis blandit, eros eu iaculis mollis, sapien mauris porttitor ex, eget elementum justo arcu eget enim. Nunc maximus sit amet magna nec placerat. Proin accumsan pretium mi sit amet bibendum. Sed commodo sit amet orci maximus pretium. Aliquam congue leo nec diam molestie, ut imperdiet odio iaculis. Fusce malesuada tellus tempor tellus vehicula, sit amet consectetur eros elementum. Donec elit augue, porta a lacinia dignissim, condimentum ut lacus. Praesent accumsan sit amet lectus vel rhoncus. Duis at fermentum orci, vel varius est. Ut laoreet efficitur pretium. Donec nec ipsum et massa aliquet pretium. Sed in dapibus diam, sed facilisis lorem. Etiam lacinia lorem non est porttitor mollis nec sit amet diam. Integer tempus quis nisi in faucibus. </p>
+        </div>
+    	<div class="content">
+ 	    <h2>Person #5</h2>
+	    <img src="img/stock-bernie.jpeg">
+	    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent enim ex, congue quis tincidunt ut, sagittis ut tellus. Duis feugiat nisi nec lacus semper rutrum id non risus. Duis blandit, eros eu iaculis mollis, sapien mauris porttitor ex, eget elementum justo arcu eget enim. Nunc maximus sit amet magna nec placerat. Proin accumsan pretium mi sit amet bibendum. Sed commodo sit amet orci maximus pretium. Aliquam congue leo nec diam molestie, ut imperdiet odio iaculis. Fusce malesuada tellus tempor tellus vehicula, sit amet consectetur eros elementum. Donec elit augue, porta a lacinia dignissim, condimentum ut lacus. Praesent accumsan sit amet lectus vel rhoncus. Duis at fermentum orci, vel varius est. Ut laoreet efficitur pretium. Donec nec ipsum et massa aliquet pretium. Sed in dapibus diam, sed facilisis lorem. Etiam lacinia lorem non est porttitor mollis nec sit amet diam. Integer tempus quis nisi in faucibus. </p>
+        </div>
+    </div>
+</body>
+</html>

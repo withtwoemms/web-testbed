@@ -1,0 +1,316 @@
+/****************************************
+GENERAL
+****************************************/
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: #e5e5e5;
+}
+
+#catch-all {
+    text-align: center;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 168px;
+    text-align: center;
+    font-family: verdana;
+    font-size: 1em;
+}
+
+.container .content{
+    width: 45%;
+    display: inline-block;
+    /*border: 2px black solid;*/
+    padding: 0 20px 0 25px;
+    box-shadow: 0 0 10px rgba(0,0,0, 0.5);
+    background-color: #ffffff;
+    position: relative;
+    top: 75px;
+    text-align: justify;
+    font-size: 1.2em
+}
+
+.content {
+    margin: 0 25px 50px 25px;
+}
+
+.content img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.spacer {
+    height: 1000px;
+}
+
+/*
+@font-face {
+    font-family: 'Archistico'; 
+    src: url('archistico_normal_macroman/Archistico_Simple-webfont.eot'); 
+    src: url('archistico_normal_macroman/Archistico_Simple-webfont.eot') format('eot'), 
+	 url('archistico_normal_macroman/Archistico_Simple-webfont.woff') format('woff'), 
+	 url('archistico_normal_macroman/Archistico_Simple-webfont.ttf') format('truetype'), 
+	 url('archistico_normal_macroman/Archistico_Simple-webfont.svg') format('svg');
+}
+
+@font-face {
+/* Bold Version 
+    font-family: 'Archistico-bold'; 
+    src: url('archistico_bold_macroman/Archistico_Bold-webfont.eot'); 
+    src: url('archistico_bold_macroman/Archistico_Bold-webfont.eot') format('eot'), 
+	 url('archistico_bold_macroman/Archistico_Bold-webfont.woff') format('woff'), 
+	 url('archistico_bold_macroman/Archistico_Bold-webfont.ttf') format('truetype'), 
+	 url('archistico_bold_macroman/Archistico_Bold-webfont.svg') format('svg');
+}
+*/
+
+
+/****************************************
+HEADING
+****************************************/
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    float: left;
+    width: 100%;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0;
+    z-index: 10;
+}
+
+#logo {
+    margin: 0;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Archistico', georgia;
+    font-weight: 900;
+}
+
+#logo:visited {
+    color: black;
+    font-weight: normal;
+}
+
+#logo h1 {
+    font-weight: normal;
+    margin: 25px 0 5px 0;
+}
+
+#logo h2 {
+    margin: -10px 0 26px 0;
+    font-weight: normal;
+}
+
+.ticket-box {
+    z-index: 5;
+    position: fixed;
+    top: 140px;
+    left: 50%;
+    margin-left: -100px;
+    display: inline-block;
+    width: 200px;
+    height: 50px;
+    border: 2px dotted blue;
+    background-color: yellow;
+    box-shadow: 0 0 7px 0;
+    text-align: center;
+}
+
+.ticket-box:hover{
+    transform: translate(0,18px); 
+}
+
+.ticket-box a:visited {
+    color: #000;
+}
+
+#ticket {
+    width: 100%;
+    height: 100%;
+    z-index: 5;
+    text-align: center;
+}
+
+#ticket span {
+    position: relative;
+    top: 27px;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+    font-size: 1em;
+}
+
+
+
+/****************************************
+NAVIGATION
+****************************************/
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    padding: 15px 10px;
+}
+
+#navbar {
+    margin: 0 -20px 25px 0;
+}
+
+
+/*
+#navbar li {
+    width: 500px;
+}
+*/
+
+#theory-btn {
+    padding-left: 58px;
+    padding-right: 58px;
+}
+
+#navbar a {
+    box-shadow: 0 0 2px 0 #000000;
+    text-decoration: none;
+    margin-right: 20px;
+    font-family: 'Archistico', georgia;
+    color: #000000;
+}
+
+#navbar a:visited {
+    color: #000000;
+}
+
+#navbar a.selected {
+    box-shadow: 0 0 20px 0 yellow;
+    color: #000000;
+}
+
+#navbar a:hover {
+    box-shadow: 0 0 40px 0 yellow;
+}
+
+
+
+/****************************************
+FOOTER
+****************************************/
+
+#footer {
+    position: fixed;
+    clear: both;
+    bottom: 0;
+    width: 100%;
+    height: 25px;
+    z-index: 20;
+    background-color: #ffffff;
+    box-shadow: 0 0 20px 0;
+    margin-top: 100px;
+}
+
+#footer p {
+    margin: 5px auto;
+    font-family: georgia;
+}
+
+
+
+/****************************************
+PAGE: MAIN
+****************************************/
+
+#trailer-box {
+    position: relative;
+    top: 25px;
+}
+
+#trailer {
+    display: inline-block;
+    position: relative;
+}
+
+#historical,
+#theory {
+    text-align: center;
+    padding-top: 200px;
+}
+
+#historical .section-title,
+#theory .section-title {
+    font-family: georgia;
+    font-weight: 900;
+}
+
+#historical .section-title h1,
+#theory .section-title h1 {
+    box-shadow: 0 0 20px 0 yellow;
+    background: #ffffff;
+    padding: 5px 0;
+}
+
+#historical h2,
+#theory h2 {
+    font-weight: 500;
+}
+
+.video {
+    display: inline-block;
+    margin: 50px;
+}
+
+
+/****************************************
+PAGE: SYNOPSIS
+****************************************/
+
+#timeline-box {
+    width: 70%;
+    display: inline-block;
+    position: relative;
+    top: 100px;
+}
+
+
+
+/****************************************
+MEDIA QUERIES
+****************************************/
+@media screen and (min-width: 660px) {
+    #logo {
+	float: left;
+ 	margin-left: 20px;
+	text-align: left;
+    }
+
+    #navbox {
+	float: right;
+	margin: 48px 20px 0;
+    }
+
+    #logo h2 {
+	margin-top: -10px;
+    }
+
+    .ticket-box {
+	top: 88px;
+        left: 20px;
+	margin-left: 0;
+    }
+}

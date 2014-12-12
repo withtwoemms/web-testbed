@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reel Life: Nebraska</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Viga' rel='stylesheet' type='text/css'>
+		<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script src="../web-testbed/video/js/mediaelement/build/mediaelement-and-player.min.js"></script>
+		<link href="css/main.css" rel="stylesheet" type="text/css">
+		<link href="../web-testbed/video/js/mediaelement/build/mediaelementplayer.min.css" rel="stylesheet" type="text/css">
+		<link href="../web-testbed/video/js/mediaelement/build/mejs-skins.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id="catch-all">
+    <header>
+
+	<a id="logo" href="index.html">
+	    <h1>Reel Life Project:</h1>
+	    <h2>Nebraska</h2>
+	</a>
+
+    	<nav id="navbox">
+	    <ul id="navbar">
+	    	<li><a id="historical-btn" href="#historical">Historical Context & Gender Depictions</a></li>
+	    	<li><a id="theory-btn" href="#theory">Theory and Development</a></li>
+	    </ul>
+    	</nav>
+    </header>
+
+    
+    <div class="ticket-box">
+	<a href="nebraska-sweepstakes/index.html">
+            <div id="ticket">
+	      	<span>See What You've WON!</span>
+            </div>
+    	</a>
+    </div>
+
+    <div class="container">
+	    <div id="trailer-box">
+	        <iframe id="trailer" width="560" height="315" src="//www.youtube.com/embed/aA98dqgJBgQ" frameborder="0" allowfullscreen></iframe>
+	    </div>
+    	<div class="content">
+	    <p>The film Nebraska, directed by Alexander Payne, centers around Woody Grant. Thought of as crazy by his family, Woody receives a sweepstakes letter and subsequently sets off on a journey to Nebraska to claim his $1 million prize. His family tries to explain that the letter and the winnngs are not real, but Woody will not hear of it and continues his trek, attempting towalk the entire stretch from his home in Billings, Montana. Even though he still does not believe him and to the dismay of his mother, Kate and brother, Ross, Woodys son David offers to drive his father to Lincoln, NE, in hopes that Woody will finally realize the truth. On their trip, they hit some bumps in the road, leading them to stay with Woodys brother in their hometown, Hawthorne, NE. Kate and Ross soon arrive in Hawthorne and thus ensues a family reunion of sorts. During this time, David begins to learn quite a bit about his fathers past. Soon, Woody becomes the talk of the town when news of his winnings gets out, leading to town vultures coming after him for his money. David and Woody make it to Lincoln, where they finally get confirmation that the prize is not real. David asks his father why he wanted all that money and Woody responds that he just wanted something to leave to his kids.</p>
+       </div>
+
+
+
+            <div class="spacer" content=" "></div>
+
+            <div id="historical">
+                <span class="section-title"><h1>Historical Context & Gender Depictions</h1></span>
+
+	            <div class="video">
+                    <!--h2></h2-->
+				    <video class="mejs-TED" src="vids/3.mp4" type="video/mp4" controls>
+	            </div>
+
+            </div><!-- end #historical -->
+    
+
+            <div class="spacer" content=" "></div>
+
+            <div id="theory">
+
+	            <span class="section-title"><h1>Theory & Development</h1></span>
+
+	            <div class="video">
+					<h2>Developmental Norms of Aging</h2>
+					<video class="mejs-TED" src="vids/1.mp4" type="video/mp4" controls>
+  	            </div>
+	            <div class="video">
+                    <h2>Evidence of Alcoholism</h2>
+					<video class="mejs-TED" src="vids/2.mp4" type="video/mp4" controls>
+  	            </div>
+	            <div class="video">
+                    <h2>Generativity vs. Stagnation</h2>
+					<video class="mejs-TED" src="vids/4.mp4" type="video/mp4" controls>
+  	            </div>
+	            <div class="video">
+                    <h2>Winner?!</h2>
+					<video class="mejs-TED" src="vids/5.mp4" type="video/mp4" controls>
+  	            </div>
+
+            </div><!-- end #theory -->
+
+
+
+            <div id="footer">
+                <p>hand-crafted & home-served ©2014 Emmanuel Obi.</p>
+            </div>
+
+
+        </div><!-- end .content -->
+
+		<script>
+			$('audio,video').mediaelementplayer({
+		        success: function(player,node) {
+				         $('#' + node.id + '-mode').html('mode: ' + player.pluginType);
+				         },
+				startLanguage: 'en',
+				tranlationSelector: true
+			});
+	    </script>
+    </div>
+</body>
+</html>

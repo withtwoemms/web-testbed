@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Reel Life: Nebraska</title>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+
+	<a id="logo" href="index.html">
+	    <h1>Reel Life Project:</h1>
+	    <h2>Nebraska</h2>
+	</a>
+
+    	<nav id="navbox">
+	    <ul id="navbar">
+	    	<li><a class="selected" href="#">Synopsis</a></li>
+	    	<li><a href="discussion.html">Discussion</a></li>
+     	    	<li><a href="about.html">About Us</a></li>
+	    </ul>
+    	</nav>
+    </header>
+
+
+    <div class="ticket-box">
+	<a href="nebraska-sweepstakes/index.html">
+            <div id="ticket">
+	      	<span>Enter Now. Win TODAY!</span>
+            </div>
+    	</a>
+    </div>
+
+    <div class="container">
+	<!--iframe id="trailer" frameborder="0" name="trailer" allowtransparency="true" scrolling="no" aria-hidden="true" title="Nebraska Trailer" tabindex="-1" style="border: medium none;" src="https://www.youtube.com/watch?v=aA98dqgJBgQ"-->
+	<div id="timeline-box">
+	    <iframe id="timeline" src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuGbTqj60bn5dERZd3lGUm9LOHA4d0Rud1g1UTJCX1E&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+ 	</div>
+    </div>
+</body>
+</html>

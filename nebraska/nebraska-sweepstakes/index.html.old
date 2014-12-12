@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="css/main.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="container">
+
+    	<div id="jumbotron">
+            <section class="form-input">
+            	<form>
+                    <p>
+                    	<label for="email">email</label>
+	                <input type="email">
+                    </p>
+                    <p>
+                	<input type="submit" value="SUBMIT" id="submit">
+                    </p>
+            	</form>
+            </section>
+	    <section class="form-return">
+	    	<div class="return-info">
+		    this is where virtual raffle ticket will appear.
+	    	</div>
+	    </section>
+	</div>
+
+    
+    	<div class="timeline">
+	    <iframe src='http://cdn.knightlab.com/libs/timeline/latest/embed/index.html?source=0AuGbTqj60bn5dERZd3lGUm9LOHA4d0Rud1g1UTJCX1E&font=Bevan-PotanoSans&maptype=toner&lang=en&height=650' width='100%' height='650' frameborder='0'></iframe>
+        </div>   
+    </div>
+</body>
+</html>
