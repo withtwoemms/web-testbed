@@ -1,0 +1,65 @@
+/* "wolf_lives" styling  */
+
+html {
+    height: 700px;
+    width: 100%;
+}
+
+body {
+    background: #0E718D;
+    height: 100%;
+    width: 700px;
+    position: relative;
+    margin: auto;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+/* Green Box */
+div.wolf-head {
+    height: 50%;
+    width: 50%; 
+    background: no-repeat center;
+    background-image: url('../img/wolf_icon_transparent_head.png');
+    background-size: cover;
+    /*border: 2px dotted lightgreen;*/
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 90px;
+}
+
+/* Yellow Box */
+div.wolf-face {
+    height: 50%;
+    width: 50%; 
+    background: no-repeat center;
+    background-image: url('../img/wolf_icon_transparent_face.png');
+    background-size: cover;
+    /*border: 2px dotted yellow;*/
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 90px;
+    z-index: 10;
+}
+
+.description h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    width: 100%; 
+    position: absolute;
+    bottom: 0;
+}
+
+#popText {
+    position: relative;
+    top: 170px;
+    left: 255px;
+    /*visibility: hidden;*/
+}

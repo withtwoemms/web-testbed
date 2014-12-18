@@ -1,0 +1,30 @@
+//This file will animate the two divs 
+
+/*
+var move = function() {
+    $('#press').animate({left:'1000px'});
+    console.log('fire!'); //function DOES fire onclick
+};
+*/
+
+var $press = $('#press'),
+    $clicked = $('.description').find('[clicked]'),
+    wasClicked = $clicked.attr('clicked');
+
+    $press.click(function() { 
+if (wasClicked === false) {
+    	$('.wolf-head').animate({top:'2px'});
+	$('.wolf-face').animate({top:'-2px'});
+	wasClicked = true;
+        console.log(wasClicked);
+	console.log('open'); //function DOES fire onclick
+    }
+else {
+    	$('.wolf-head').animate({top:'-100px'});
+	$('.wolf-face').animate({top:'100px'});
+	wasClicked = false;
+        console.log(wasClicked);
+	console.log('close'); //function DOES fire onclick
+    }
+});
+    
